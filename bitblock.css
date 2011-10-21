@@ -1,0 +1,86 @@
+.tapper {
+	float: left;
+	height: 60px;
+	width: 60px;
+}
+
+.matrix {
+	float: left;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding-top: 5px;
+}
+
+.b01 {
+	clear: both;
+	color: #00a309;
+	background-color: #00a309;
+	width: 0px;
+	height: 10px;
+}
+
+.b02 {
+	clear: both;
+	color: #00a309;
+	background-color: #00a309;
+	width: 0px;
+	height: 0px;
+}
+
+
+#tappers {
+	padding-top: 5px;
+}
+
+
+#game01 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#go2options, #replay, #newgame {
+    display: inline;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: silver;
+}
+
+#go2options a {
+    color: black;
+    text-decoration: none;
+}
+
+#t00 {
+	background-color: #864bff;
+	color: #469bff;
+}
+
+#t01 {
+	background-color: #469bff;
+	color: #469bff;
+}
+
+#t02 {
+	background-color: #57ffaa;
+	color: #469bff;
+}
+
+#t03 {
+	background-color: #ffc81b;
+	color: #469bff;
+}
+
+#t04 {
+	background-color: #ff388b;
+	color: #469bff;
+}
+
+
+
+
+
+
+

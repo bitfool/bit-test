@@ -1,0 +1,81 @@
+<html>
+<head>
+	<link rel="stylesheet" href="bitblock.css" type="text/css" media="all" />
+	<script type="text/javascript" src="zepto.min.js"></script>
+	<script type="text/javascript" src="touch.js"></script>
+	<script type="text/javascript" src="bitblock.js"></script>
+	<link rel="stylesheet" href="options.css" media="screen" type="text/css" />
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>BitBlock</title>
+</head>
+<body>
+
+
+    <div id="game01" style="display:block;">
+    
+        <div id="tappers">
+            <div id="t00" class="tapper" ccode="1"></div>
+            <div id="t01" class="tapper" ccode="2"></div>
+            <div id="t02" class="tapper" ccode="3"></div>
+            <div id="t03" class="tapper" ccode="4"></div>
+            <div id="t04" class="tapper" ccode="5"></div>
+        </div>
+    
+        <div class="b01"></div>
+    
+        <div id="bitblocks"></div>
+    
+        <div class="b01"></div>
+    
+    
+        <div id="scoreline">
+            <span id="fini"></span>
+            Score: <span id="score">0</span>. 
+            Taps: <span id="tapscount">0</span>
+            <span id="bonus"></span>
+        </div>
+    
+        <div class="b01"></div>
+    
+        <div id="replay">Replay</div>
+        <div id="newgame">New Bits</div>
+        <div id="go2options"><a href="#menu_0">Options</a></div>
+
+        <div class="b01"></div>
+        <ul id="lastgames"></ul>
+
+    </div>
+
+
+    <div id="game02" style="display:none;"></div>
+
+    <div id="options" style="display:none;">
+        <div class="section" id="menu_0">
+            <div class="toolbar">
+                <h1>BitBlock Options</h1>
+            </div>
+            <ul id="menu" class="menu">
+                <li><a href="#game01" togame="1"> &lt; Back To BitBlock Game</a></li>
+                <li class="arrow"><a href="#menu_1">Some other options</a></li>
+                <li>Option 1</li>
+                <li>Another option</li>
+                <li>Something else</li>
+                <li>Or not</li>
+            </ul>
+        </div>
+    
+        <div class="section" id="menu_1">
+            <div class="toolbar">
+                <h1>More goodies</h1>
+            </div>
+            <ul class="menu">
+                <li>Goodie 1</li>
+                <li>Tasty 2</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
